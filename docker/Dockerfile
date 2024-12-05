@@ -52,7 +52,6 @@ ENV MAX_JOBS=N
 RUN pip3 install https://github.com/VincentStimper/mclahe/archive/numpy.zip
 RUN apt-get install xvfb -y
 ENV DISPLAY=:99
-RUN pip3 install pyupbit
 #############################################
 ## Recommand Add your Custom pip install here
 #############################################
@@ -63,4 +62,5 @@ RUN jt -t monokai -fs 115 -nfs 125 -tfs 115 -dfs 115 -ofs 115 -cursc r -cellw 80
 # 불필요한 pip 라이브러리 삭제 (자동완성 기능 - 느림)
 RUN pip3 uninstall jedi -y
 RUN jupyter lab --generate-config
+# set jupyter notebook's password as root
 RUN echo "c.NotebookApp.password = u'sha256:50cd326c063b:6a4c1d4cfc5ec7ecd9f7dcce986fb08fca9f3ac808dd82d365d79cc445dd498e'">>/root/.jupyter/jupyter_notebook_config.py
