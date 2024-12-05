@@ -17,6 +17,7 @@ This repository provides a step-by-step guide to working with pathology data, in
 - Place the downloaded dataset in `data/0_source_data/hubmap-kidney-segmentation` and process it to obtain the same results as described in this repository.
 - The complete tissue mask results can be found in the directory: `data/1_tissue_mask`.
 - The extracted segmentation patches (e.g., glomerulus patches) are stored in the directory: data/2_extract_patch.
+  
 <p align="center">
   <img src="code/example_images/0486052bb.png" alt="WSI Example" width="45%">
   <img src="code/example_images/0486052bb_tissue_mask.png" alt="Tissue Mask Example" width="45%">
