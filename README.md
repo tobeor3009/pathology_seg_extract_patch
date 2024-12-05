@@ -43,7 +43,7 @@ This repository provides a step-by-step guide to working with pathology data, in
 </p>
 
 <p align="center">
-  <b>Figure 2:</b>Positive Patch: Image Patch (left), Mask Patch (center), Tissue Patch (right).
+  <b>Figure 3:</b>Positive Patch: Image Patch (left), Mask Patch (center), Tissue Patch (right).
 </p>
 
 ### Data Source
