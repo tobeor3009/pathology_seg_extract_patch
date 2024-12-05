@@ -26,6 +26,26 @@ This repository provides a step-by-step guide to working with pathology data, in
   <b>Figure 1:</b> Original WSI (left) and Tissue Mask (right).
 </p>
 
+<p align="center">
+  <img src="data/2_extract_patch/0486052bb.tiff/negative/0000/000097/image.png" alt="Image Patch Example" width="30%">
+  <img src="data/2_extract_patch/0486052bb.tiff/negative/0000/000097/mask.png" alt="Mask Patch Example" width="30%">
+  <img src="data/2_extract_patch/0486052bb.tiff/negative/0000/000097/tissue.png" alt="Tissue Patch Example" width="30%">
+</p>
+
+<p align="center">
+  <b>Figure 2:</b>Negative Patch: Image Patch (left), Mask Patch (center), Tissue Patch (right).
+</p>
+
+<p align="center">
+  <img src="data/2_extract_patch/0486052bb.tiff/positive/0000/000096/image.png" alt="Image Patch Example" width="30%">
+  <img src="data/2_extract_patch/0486052bb.tiff/positive/0000/000096/mask.png" alt="Mask Patch Example" width="30%">
+  <img src="data/2_extract_patch/0486052bb.tiff/positive/0000/000096/tissue.png" alt="Tissue Patch Example" width="30%">
+</p>
+
+<p align="center">
+  <b>Figure 2:</b>Positive Patch: Image Patch (left), Mask Patch (center), Tissue Patch (right).
+</p>
+
 ### Data Source
 
 The dataset used in this project is sourced from the Kaggle competition:  
