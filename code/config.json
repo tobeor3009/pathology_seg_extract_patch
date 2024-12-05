@@ -1,0 +1,9 @@
+{
+   "train_wsi_path": "../data/0_source_data/hubmap-kidney-segmentation/train",
+   "test_wsi_path": "../data/0_source_data/hubmap-kidney-segmentation/test",
+   "data_common_path": "../data",
+   "tissue_mask_level": 2,
+   "downsizing_per_level": 2,
+   "level_0_patch_size": 1024,
+   "mpp_standard": 0.65
+}

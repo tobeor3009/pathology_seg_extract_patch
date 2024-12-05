@@ -1,0 +1,46 @@
+
+---
+
+# Pathology Data Analysis Repository
+
+This repository provides a step-by-step guide to working with pathology data, including:
+
+1. **Extracting Tissue Mask from Images**  
+   Refer to the notebook: `code/1_Extract_Tissue_Mask.ipynb`
+
+2. **Generating Pathology Segmentation Patches (Glomerulus)**  
+   Utilizing the tissue mask to extract segmentation patches.  
+   Refer to the notebook: `code/2_Extract_Glomerulus_Patch.ipynb`
+
+### Data Preparation and Results
+
+- Place the downloaded dataset in `data/0_source_data/hubmap-kidney-segmentation` and process it to obtain the same results as described in this repository.
+- The complete tissue mask results can be found in the directory: `data/1_tissue_mask`.
+
+<p align="center">
+  <img src="code/example_images/0486052bb.png" alt="WSI Example" width="45%">
+  <img src="code/example_images/0486052bb_tissue_mask.png" alt="Tissue Mask Example" width="45%">
+</p>
+
+<p align="center">
+  <b>Figure 1:</b> Original WSI (left) and Tissue Mask (right).
+</p>
+
+### Data Source
+
+The dataset used in this project is sourced from the Kaggle competition:  
+[HuBMAP - Kidney Segmentation](https://www.kaggle.com/competitions/hubmap-kidney-segmentation)
+
+### Future Work
+
+We are currently preparing a research paper on **Segmentation Loss** based on the methods demonstrated in this repository.
+
+### Contact
+
+If you have any questions or suggestions, feel free to reach out via:  
+📧 **Email**: tobeor3009@gmail.com  
+💬 **GitHub Issues**
+
+--- 
+
+Let me know if you need further refinements! 😊

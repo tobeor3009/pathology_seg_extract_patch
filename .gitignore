@@ -1,6 +1,10 @@
-./data/0_source_data/hubmap-kidney-segmentation
-./data/0_source_data/hubmap-kidney-segmentation.zip
 *.png
 *.DS_Store
 .ipynb_checkpoints
 __pycache__
+!code/example_images/*.png
+data/0_source_data/hubmap-kidney-segmentation
+data/0_source_data/hubmap-kidney-segmentation.zip
+!data/1_tissue_mask/*.png
+!data/2_extract_patch/0486052bb.tiff/negative/0000/000097/*.png
+!data/2_extract_patch/0486052bb.tiff/positive/0000/000096/*.png
