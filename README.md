@@ -52,6 +52,17 @@ This repository provides a step-by-step guide to working with pathology data, in
 The dataset used in this project is sourced from the Kaggle competition:  
 [HuBMAP - Kidney Segmentation](https://www.kaggle.com/competitions/hubmap-kidney-segmentation)
 
+### Docker Environment
+
+With Docker, you can easily set up a development environment.
+This Docker image was created while I was working at MI2RL (Medical Image to Reality Lab) and is fully prepared to handle a variety of medical images.
+
+Using the scripts in the docker/ folder:
+
+Run docker/1_build_container.sh to build the Docker image.
+Then, run docker/2_build_container.sh to execute the container.
+Once executed, the Jupyter Notebook will automatically launch on port 28888 with the password set to root. It provides a very convenient local development environment!
+
 ### Future Work
 
 We are currently preparing a research paper on **Segmentation Loss** based on the methods demonstrated in this repository.
