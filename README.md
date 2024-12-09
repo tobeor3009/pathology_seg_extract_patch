@@ -12,6 +12,17 @@ This repository provides a step-by-step guide to working with pathology data, in
    Utilizing the tissue mask to extract segmentation patches.  
    Refer to the notebook: `code/2_Extract_Glomerulus_Patch.ipynb`
 
+### A Brief Description of the Algorithm for Generating Tissue Masks
+
+1. **Achromatic Colors Have a Low Probability of Being Tissue Masks**  
+   Achromatic areas are unlikely to be tissue masks. Markings or dark regions where light does not penetrate may be mistakenly recognized as tissue masks, leading to false positives. These regions are detected and their color is converted to white.
+
+2. **Converting the Image to LAB Space**  
+   After converting the image to LAB space, regions where the L value is below a certain threshold are defined as tissue masks. This can be intuitively understood as considering areas where "light cannot penetrate" as tissue masks.
+
+3. **Refining the Tissue Mask**  
+   The tissue mask obtained through this process is refined using a combination of binary dilation, erosion, `remove_small_holes`, and `remove_small_objects`. This not only makes the tissue mask visually cleaner but also significantly reduces the file size of the tissue mask.
+
 ### Data Preparation and Results
 
 - Place the downloaded dataset in `data/0_source_data/hubmap-kidney-segmentation` and process it to obtain the same results as described in this repository.
