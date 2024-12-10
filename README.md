@@ -23,6 +23,18 @@ This repository provides a step-by-step guide to working with pathology data, in
 3. **Refining the Tissue Mask**  
    The tissue mask obtained through this process is refined using a combination of `binary_dilation`, `binary_erosion`, `remove_small_holes`, and `remove_small_objects`. This not only makes the tissue mask visually cleaner but also significantly reduces the file size of the tissue mask.
 
+## Recommended System Requirements
+
+To ensure optimal performance, I recommend the following system specifications:
+
+### Hardware
+- **CPU**: Intel i7 (9th Gen or newer) / AMD Ryzen 7 (3rd Gen or newer)
+- **RAM**: 32 GB or higher
+- **Storage**: SSD with at least 256 GB of free space
+
+I performed all tasks related to this repo using a gaming laptop with the following specifications: 
+8-core 16-thread 10th Gen i7 processor and 32GB of RAM. The model name is M17 R4.
+
 ### Data Preparation and Results
 
 - Place the downloaded dataset in `data/0_source_data/hubmap-kidney-segmentation` and process it to obtain the same results as described in this repository.
