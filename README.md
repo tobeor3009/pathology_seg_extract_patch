@@ -12,7 +12,7 @@ This repository provides a step-by-step guide to working with pathology data, in
    Utilizing the tissue mask to extract segmentation patches.  
    Refer to the notebook: `code/2_Extract_Glomerulus_Patch.ipynb`
 
-### A Brief Description of the Algorithm for Generating Tissue Masks
+## A Brief Description of the Algorithm for Generating Tissue Masks
 
 1. **Achromatic Areas, Excluding White, Have a Low Probability of Being Tissue Masks**  
    Achromatic areas, excluding white, are unlikely to be tissue masks. Markings or dark regions where light does not penetrate may be mistakenly recognized as tissue masks, leading to false positives. These regions are detected and their color is converted to white.
@@ -23,7 +23,7 @@ This repository provides a step-by-step guide to working with pathology data, in
 3. **Refining the Tissue Mask**  
    The tissue mask obtained through this process is refined using a combination of `binary_dilation`, `binary_erosion`, `remove_small_holes`, and `remove_small_objects`. This not only makes the tissue mask visually cleaner but also significantly reduces the file size of the tissue mask.
 
-### Recommended System Requirements
+## Recommended System Requirements
 
 To ensure optimal performance, I recommend the following system specifications:
 
@@ -35,7 +35,7 @@ To ensure optimal performance, I recommend the following system specifications:
 I performed all tasks related to this repo using a gaming laptop with the following specifications: 
 8-core 16-thread Intel 10th Gen i7 processor and 32GB of RAM. The model name is Dell Alienware M17 R4.
 
-### Data Preparation and Results
+## Data Preparation and Results
 
 - Place the downloaded dataset in `data/0_source_data/hubmap-kidney-segmentation` and process it to obtain the same results as described in this repository.
 - The complete tissue mask results can be found in the directory: `data/1_tissue_mask`.
@@ -70,12 +70,12 @@ I performed all tasks related to this repo using a gaming laptop with the follow
   <b>Figure 3:</b> Positive Image Patch (left), Mask Patch (center), Tissue Patch (right).
 </p>
 
-### Data Source
+## Data Source
 
 The dataset used in this project is sourced from the Kaggle competition:  
 [HuBMAP - Kidney Segmentation](https://www.kaggle.com/competitions/hubmap-kidney-segmentation)
 
-### Docker Environment
+## Docker Environment
 
 With Docker, you can easily set up a development environment.  
 This Docker image was created while I was working at MI2RL (Medical Image to Reality Lab) and is fully prepared to handle a variety of medical images.  
@@ -87,11 +87,11 @@ Then, run `docker/2_build_container.sh` to execute the container.
 Once executed, the Jupyter Notebook will automatically launch on port `28888` with the password set to `root`.  
 It provides a very convenient local development environment!
 
-### Future Work
+## Future Work
 
 We are currently preparing a research paper on **Segmentation Loss** based on the methods demonstrated in this repository.
 
-### Contact
+## Contact
 
 If you have any questions or suggestions, feel free to reach out via:  
 📧 **Email**: tobeor3009@gmail.com  
