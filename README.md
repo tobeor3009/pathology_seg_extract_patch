@@ -78,7 +78,7 @@ The dataset used in this project is sourced from the Kaggle competition:
 ## Docker Environment
 
 With Docker, you can easily set up a development environment.  
-This Docker image was created while I was working at MI2RL (Medical Image to Reality Lab) and is fully prepared to handle a variety of medical images.  
+TThis Docker image is being created while I am working at MI2RL (Medical Image to Reality Lab) and is fully prepared to handle a variety of medical images.  
   
 Using the scripts in the `docker/` folder:  
   
