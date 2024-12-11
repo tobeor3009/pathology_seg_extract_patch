@@ -32,7 +32,7 @@ To ensure optimal performance, I recommend the following system specifications:
 - **RAM**: 32 GB or higher
 - **Storage**: SSD with at least 256 GB of free space
 
-I performed all tasks related to this repo using a gaming laptop with the following specifications: 
+I performed all tasks related to this repo using a gaming laptop with the following specifications:  
 8-core 16-thread Intel 10th Gen i7 processor and 32GB of RAM. The model name is Dell Alienware M17 R4.
 
 ## Data Preparation and Results
