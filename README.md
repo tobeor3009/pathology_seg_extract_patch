@@ -23,7 +23,7 @@ This repository provides a step-by-step guide to working with pathology data, in
 3. **Refining the Tissue Mask**  
    The tissue mask obtained through this process is refined using a combination of `binary_dilation`, `binary_erosion`, `remove_small_holes`, and `remove_small_objects`. This not only makes the tissue mask visually cleaner but also significantly reduces the file size of the tissue mask.
 
-## Recommended System Requirements
+### Recommended System Requirements
 
 To ensure optimal performance, I recommend the following system specifications:
 
