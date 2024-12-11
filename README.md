@@ -80,11 +80,12 @@ The dataset used in this project is sourced from the Kaggle competition:
 With Docker, you can easily set up a development environment.
 This Docker image was created while I was working at MI2RL (Medical Image to Reality Lab) and is fully prepared to handle a variety of medical images.
 
-Using the scripts in the docker/ folder:
+Using the scripts in the `docker/` folder:
 
-Run docker/1_build_container.sh to build the Docker image.
-Then, run docker/2_build_container.sh to execute the container.
-Once executed, the Jupyter Notebook will automatically launch on port 28888 with the password set to root. It provides a very convenient local development environment!
+Run `docker/1_build_container.sh` to build the Docker image.
+Then, run `docker/2_build_container.sh` to execute the container.
+Once executed, the Jupyter Notebook will automatically launch on port `28888` with the password set to `root`.
+It provides a very convenient local development environment!
 
 ### Future Work
 
